@@ -73,6 +73,26 @@ namespace GUI_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Giuros {
+            get {
+                object obj = ResourceManager.GetObject("Giuros", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap greese_flag {
+            get {
+                object obj = ResourceManager.GetObject("greese flag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Home_Icon {
             get {
                 object obj = ResourceManager.GetObject("Home Icon", resourceCulture);

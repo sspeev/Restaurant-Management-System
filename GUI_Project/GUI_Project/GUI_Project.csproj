@@ -124,6 +124,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Desktop-Icon.ico" />
+    <None Include="Resources\greese flag.png" />
+    <None Include="Resources\Giuros.png" />
     <None Include="Resources\instagram logo or footer.png" />
     <None Include="Resources\creator icon.jpg" />
     <None Include="Resources\WallPaper.png" />

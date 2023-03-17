@@ -118,8 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="instagram logo or footer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\instagram logo or footer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Home Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Home Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Giuros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Giuros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="creator icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\creator icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,7 +133,7 @@
   <data name="WallPaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WallPaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="instagram logo or footer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\instagram logo or footer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="greese flag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greese flag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

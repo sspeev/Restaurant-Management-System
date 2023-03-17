@@ -36,6 +36,7 @@
             this.HomeButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.DefaltPanel = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.NextPageButton = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -72,7 +73,6 @@
             this.Header_label = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.closeButton = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.DefaltPanel.SuspendLayout();
@@ -189,6 +189,23 @@
             this.DefaltPanel.Size = new System.Drawing.Size(777, 537);
             this.DefaltPanel.TabIndex = 16;
             // 
+            // button2
+            // 
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(206)))), ((int)(((byte)(203)))));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.Location = new System.Drawing.Point(463, 475);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(144, 38);
+            this.button2.TabIndex = 18;
+            this.button2.Text = "Previous Page";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // NextPageButton
             // 
             this.NextPageButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -235,7 +252,7 @@
             this.spagettiLable.Name = "spagettiLable";
             this.spagettiLable.Size = new System.Drawing.Size(60, 22);
             this.spagettiLable.TabIndex = 7;
-            this.spagettiLable.Text = "Éclair";
+            this.spagettiLable.Text = "Eclair";
             // 
             // label3
             // 
@@ -445,9 +462,9 @@
             this.chocolateCakeLable.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.chocolateCakeLable.Location = new System.Drawing.Point(3, 150);
             this.chocolateCakeLable.Name = "chocolateCakeLable";
-            this.chocolateCakeLable.Size = new System.Drawing.Size(134, 22);
+            this.chocolateCakeLable.Size = new System.Drawing.Size(93, 22);
             this.chocolateCakeLable.TabIndex = 9;
-            this.chocolateCakeLable.Text = "Chocolate Cake";
+            this.chocolateCakeLable.Text = "Yakishoba";
             // 
             // label7
             // 
@@ -483,7 +500,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Image = global::GUI_Project.Properties.Resources.greese_flag;
             this.pictureBox9.Location = new System.Drawing.Point(7, 3);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(31, 22);
@@ -500,7 +517,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(40, 22);
             this.label9.TabIndex = 10;
-            this.label9.Text = "25$";
+            this.label9.Text = "10$";
             // 
             // teryiakiLable
             // 
@@ -509,13 +526,13 @@
             this.teryiakiLable.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.teryiakiLable.Location = new System.Drawing.Point(3, 158);
             this.teryiakiLable.Name = "teryiakiLable";
-            this.teryiakiLable.Size = new System.Drawing.Size(75, 22);
+            this.teryiakiLable.Size = new System.Drawing.Size(55, 22);
             this.teryiakiLable.TabIndex = 10;
-            this.teryiakiLable.Text = "Teriyaki";
+            this.teryiakiLable.Text = "Gyros";
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Image = global::GUI_Project.Properties.Resources.Giuros;
             this.pictureBox8.Location = new System.Drawing.Point(0, 31);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(211, 124);
@@ -583,23 +600,6 @@
             this.closeButton.TabIndex = 1;
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(206)))), ((int)(((byte)(203)))));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(463, 475);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 38);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "Previous Page";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // MenuPage2
             // 
