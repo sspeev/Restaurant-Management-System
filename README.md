@@ -1,2 +1,4 @@
 # Restaurant Management System
- Basic Local Project
+C# project created with Windows Forms Application with small functionality
+![image](MainScreen.png)
+<br/>
