@@ -23,7 +23,6 @@ D:\GitHub-Repositories\Restaurant-Management-System\GUI_Project\GUI_Project\bin\
 D:\GitHub-Repositories\Restaurant-Management-System\GUI_Project\GUI_Project\bin\Debug\WinFormAnimation.dll
 D:\GitHub-Repositories\Restaurant-Management-System\GUI_Project\GUI_Project\bin\Debug\CircularProgressBar.xml
 D:\GitHub-Repositories\Restaurant-Management-System\GUI_Project\GUI_Project\obj\Debug\GUI_Project.csproj.AssemblyReference.cache
-D:\GitHub-Repositories\Restaurant-Management-System\GUI_Project\GUI_Project\obj\Debug\GUI_Project.csproj.SuggestedBindingRedirects.cache
 D:\GitHub-Repositories\Restaurant-Management-System\GUI_Project\GUI_Project\obj\Debug\GUI_Project.Resturant_Manegment_System.resources
 D:\GitHub-Repositories\Restaurant-Management-System\GUI_Project\GUI_Project\obj\Debug\GUI_Project.MenuList.resources
 D:\GitHub-Repositories\Restaurant-Management-System\GUI_Project\GUI_Project\obj\Debug\GUI_Project.MenuPage2.resources
